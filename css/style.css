@@ -1,16 +1,16 @@
 /* Diagnostic */
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@600&display=swap');
+
 * {
-  outline: 1px dotted darkgray;
+  /* outline: 1px dotted darkgray; */
 }
 
 /* Layout  */
 main {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  /* verrtical center   */
-  align-content: center;
-  /*  extend to viewport height  */
+  grid-template-rows: repeat(2, 1fr);
   height: 100vh;
 }
 
@@ -19,4 +19,18 @@ main time {
   text-align: center;
 }
 
+.time{
+  font-size: 100px;
+  font-size: SemiBold 600;
+  font-family: 'Roboto Mono';
+  letter-spacing: -7px;
+  align-content: center;
+}
+
+.date{
+font-size: 30px;
+font-family: 'Roboto Mono';
+height: -200px;
+align-items: center;
+}
 
